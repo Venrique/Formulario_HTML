@@ -1,0 +1,17 @@
+body{
+    background-color: royalblue;
+}
+
+legend{
+    font-size: 25px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+fieldset{
+    background-color: cornflowerblue;
+}
+
+h1{
+    color: white;
+}
