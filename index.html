@@ -13,47 +13,53 @@
         <hr>
         <br><br>
         <form action="#" method="GET">
-            <fieldset >
-                <legend>Personal</legend>
-                <label for="nombre">Nombres:</label>  
-                <input type="text" id="nombre" name="firstn" placeholder="Víctor Enrique" required>
-                &nbsp;
-                <label for="apellido">Apellidos:</label>
-                <input type="text" id="apellido" name="lastn" placeholder="Mendoza Yanes" required>
-                &nbsp;
-                <label for="anio">Año de Nacimiento:</label>
-                <input type="date" id="anio" name="year" min="1900-01-01" required>
-                &nbsp;
-                <label for="animal">Animal Favorito:</label>
-                <input type="text" id="animal" name="animal" placeholder="Nutria">
-            </fieldset>
+            <section>
+                <fieldset >
+                    <legend>Personal</legend>
+                    <label for="nombre">Nombres:</label>  
+                    <input type="text" id="nombre" name="firstn" placeholder="Víctor Enrique" required>
+                    &nbsp;
+                    <label for="apellido">Apellidos:</label>
+                    <input type="text" id="apellido" name="lastn" placeholder="Mendoza Yanes" required>
+                    &nbsp;
+                    <label for="anio">Año de Nacimiento:</label>
+                    <input type="date" id="anio" name="year" min="1900-01-01" required>
+                    &nbsp;
+                    <label for="animal">Animal Favorito:</label>
+                    <input type="text" id="animal" name="animal" placeholder="Nutria">
+                </fieldset>
+            </section>
             <br><br>
-            <fieldset>
-                <legend>Cuenta</legend>
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" placeholder="aaaa@aaaa.com">
-                &nbsp;
-                <label for="pass">Contraseña:</label>
-                <input type="password" id="pass" name="pass"  placeholder="(Mayus, Min y Número)" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" required>
-                &nbsp;
-                <label for="pass2">Repita Contraseña:</label>
-                <input type="password" id="pass2" name="pass2" placeholder="(Mayus, Min y Número)" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" required>
-            </fieldset>
+            <section>
+                <fieldset>
+                    <legend>Cuenta</legend>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="aaaa@aaaa.com">
+                    &nbsp;
+                    <label for="pass">Contraseña:</label>
+                    <input type="password" id="pass" name="pass"  placeholder="(Mayus, Min y Número)" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" required>
+                    &nbsp;
+                    <label for="pass2">Repita Contraseña:</label>
+                    <input type="password" id="pass2" name="pass2" placeholder="(Mayus, Min y Número)" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" required>
+                </fieldset>
+            </section>  
             <br><br>
-            <fieldset>
-                <legend>Contacto</legend>
-                <label for="pais">País: </label>
-                <input type="text" id="pais" name="country" placeholder="El Salvador" required>
-                &nbsp;
-                <label for="ciudad">Ciudad:</label>
-                <input type="text" id="ciudad" name="city" placeholder="Santa Tecla" required>
-                &nbsp;
-                <label for="dire">Dirección:</label>
-                <input type="text" id="dire" name="adress" placeholder="Pinares de Suiza" required>
-                &nbsp;
-                <label for="tel">Teléfono:</label>
-                <input type="tel" id="tel" name="phone" placeholder="7452-5888" pattern="\d{4}[\-]\d{4}" required>
-            </fieldset>
+            <section>
+                <fieldset>
+                    <legend>Contacto</legend>
+                    <label for="pais">País: </label>
+                    <input type="text" id="pais" name="country" placeholder="El Salvador" required>
+                    &nbsp;
+                    <label for="ciudad">Ciudad:</label>
+                    <input type="text" id="ciudad" name="city" placeholder="Santa Tecla" required>
+                    &nbsp;
+                    <label for="dire">Dirección:</label>
+                    <input type="text" id="dire" name="adress" placeholder="Pinares de Suiza" required>
+                    &nbsp;
+                    <label for="tel">Teléfono:</label>
+                    <input type="tel" id="tel" name="phone" placeholder="7452-5888" pattern="\d{4}[\-]\d{4}" required>
+                </fieldset>
+            </section>
             <br><br>
             <input type="submit" value="Enviar">
             <input type="reset" value="Cancelar">
